@@ -1,11 +1,9 @@
 package com.estudo.cursomc.dto;
 
 import com.estudo.cursomc.domain.Categoria;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.Length;
-
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 
 public class CategoriaDTO implements Serializable {
